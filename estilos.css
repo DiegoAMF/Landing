@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(170, 255, 137);
+}
+h1{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size: 40px;}
+
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;}
+
+input{font-size: 25px;padding: 10px;border-color: black;border-radius: 7px;}
+
+select{font-size: 25px;padding: 10px;border-color: black;border-radius: 7px;color: rgb(0, 0, 0);}
+
+a{
+    background-color:rgb(163, 79, 241);
+    color: rgb(21, 255, 0);
+    border-color: black;
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen{
+    width: 530px;
+    height: 530px;
+    margin-left: 35px;
+    border-radius: 15%;
+    position:absolute;
+    left: 3;
+    top: 3;
+}
